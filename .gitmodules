@@ -1,0 +1,18 @@
+[submodule "payment-service"]
+	path = payment-service
+	url = https://github.com/LingyuxiuZHONG/short-term-rent-payment-service.git
+[submodule "review-service"]
+	path = review-service
+	url = https://github.com/LingyuxiuZHONG/short-term-rent-review-service.git
+[submodule "user-service"]
+	path = user-service
+	url = https://github.com/LingyuxiuZHONG/short-term-rent-user-service.git
+[submodule "listing-service"]
+	path = listing-service
+	url = https://github.com/LingyuxiuZHONG/short-term-rent-listing-service.git
+[submodule "booking-service"]
+	path = booking-service
+	url = https://github.com/LingyuxiuZHONG/short-term-rent-booking-service.git
+[submodule "feign-api"]
+	path = feign-api
+	url = https://github.com/LingyuxiuZHONG/short-term-rent-feign-api.git
