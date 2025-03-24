@@ -16,3 +16,6 @@
 [submodule "feign-api"]
 	path = feign-api
 	url = https://github.com/LingyuxiuZHONG/short-term-rent-feign-api.git
+[submodule "resource-service"]
+	path = resource-service
+	url = https://github.com/LingyuxiuZHONG/short-term-rent-resource-service.git
