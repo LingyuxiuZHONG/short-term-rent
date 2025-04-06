@@ -16,11 +16,7 @@ spring:
         - id: resource-service
           uri: lb://resourceservice
           predicates:
-            - Path=/api/resources/**
-        - id: resource-service-resource
-          uri: lb://resourceservice
-          predicates:
-            - Path=/upload/**
+            - Path=/api/resources/**, /upload/**
         - id: listing-service
           uri: lb://listingservice
           predicates:
@@ -37,6 +33,10 @@ spring:
           uri: lb://reviewservice
           predicates:
             - Path=/api/reviews/**
+        - id: message-service
+          uri: lb://messageservice
+          predicates:
+            - Path=/api/messages/**, /api/chats/**, /ws/**
       globalcors:
         cors-configurations:
           '[/**]':

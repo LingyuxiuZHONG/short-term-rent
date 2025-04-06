@@ -19,3 +19,6 @@
 [submodule "resource-service"]
 	path = resource-service
 	url = https://github.com/LingyuxiuZHONG/short-term-rent-resource-service.git
+[submodule "message-service"]
+	path = message-service
+	url = https://github.com/LingyuxiuZHONG/short-term-rent-message-service.git
